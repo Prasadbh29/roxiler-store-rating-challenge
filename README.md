@@ -4,12 +4,12 @@
 > FullStack Intern Coding Challenge Submission  
 > Built using React.js, Express.js, PostgreSQL, and Prisma ORM.
 
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Frontend](https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge)
-![Backend](https://img.shields.io/badge/Backend-Express-black?style=for-the-badge)
-![Database](https://img.shields.io/badge/Database-PostgreSQL-blue?style=for-the-badge)
-![ORM](https://img.shields.io/badge/ORM-Prisma-2D3748?style=for-the-badge)
-![Auth](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge&logo=checkmarx)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Express](https://img.shields.io/badge/Backend-Express-000000?style=for-the-badge&logo=express)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql)
+![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?style=for-the-badge&logo=prisma)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge&logo=jsonwebtokens)
 
 ---
 
