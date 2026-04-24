@@ -1,15 +1,7 @@
-````md
 # ⭐ Store Rating Platform
 
-> FullStack Intern Coding Challenge Submission  
+> FullStack Intern Coding Challenge Submission
 > Built using React.js, Express.js, PostgreSQL, and Prisma ORM.
-
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Express](https://img.shields.io/badge/Backend-Express-grey?style=for-the-badge&logo=express)
-![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/ORM-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![JWT](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 ---
 
@@ -19,23 +11,23 @@ Build a full-stack web application that allows users to submit ratings for store
 
 The platform should support:
 
-- User registration & login
-- Role-based dashboards
-- Store rating system (1 to 5)
-- Search, sorting, filtering
-- Admin management panel
-- Secure authentication
-- Proper validations
-- Clean database design
+* User registration & login
+* Role-based dashboards
+* Store rating system (1 to 5)
+* Search, sorting, filtering
+* Admin management panel
+* Secure authentication
+* Proper validations
+* Clean database design
 
 ---
 
 # 👥 User Roles
 
-The application supports 3 user roles:
+The application supports three user roles:
 
-1. 👑 System Administrator  
-2. 👤 Normal User  
+1. 👑 System Administrator
+2. 👤 Normal User
 3. 🏪 Store Owner
 
 ---
@@ -44,74 +36,51 @@ The application supports 3 user roles:
 
 ## 👑 System Administrator
 
-- Secure login
-- Add Stores
-- Add Users (Admin / User / Owner)
-- View dashboard stats:
-  - Total Users
-  - Total Stores
-  - Total Ratings
-- View all stores:
-  - Name
-  - Email
-  - Address
-  - Rating
-- View all users:
-  - Name
-  - Email
-  - Address
-  - Role
-- Search & filter by:
-  - Name
-  - Email
-  - Address
-  - Role
-- View user details
-- Logout
+* Secure login
+* Add stores
+* Add users (Admin / User / Owner)
+* View dashboard statistics
+* View all stores and users
+* Search & filter records
+* View user details
+* Logout
 
 ---
 
 ## 👤 Normal User
 
-- Register account
-- Login securely
-- Change password
-- Browse all stores
-- Search stores by:
-  - Name
-  - Address
-- View stores with:
-  - Store Name
-  - Address
-  - Overall Rating
-  - My Rating
-- Submit rating (1–5)
-- Update rating
-- Logout
+* Register account
+* Secure login
+* Change password
+* Browse all stores
+* Search stores by name and address
+* Submit rating (1–5)
+* Update rating
+* Logout
 
 ---
 
 ## 🏪 Store Owner
 
-- Login securely
-- Change password
-- View average store rating
-- View users who rated their store
-- Logout
+* Secure login
+* Change password
+* View average rating
+* View users who rated their store
+* Logout
 
 ---
 
 # 🛠 Tech Stack
 
-| Layer | Technology |
-|------|------------|
-| Frontend | React.js + Vite |
-| Backend | Express.js |
-| Database | PostgreSQL |
-| ORM | Prisma |
-| Authentication | JWT |
-| HTTP Client | Axios |
-| Styling | CSS |
+| Layer          | Technology      |
+| -------------- | --------------- |
+| Frontend       | React.js + Vite |
+| Backend        | Express.js      |
+| Database       | PostgreSQL      |
+| ORM            | Prisma          |
+| Authentication | JWT             |
+| HTTP Client    | Axios           |
+| Styling        | CSS             |
 
 ---
 
@@ -131,7 +100,7 @@ store-rating-platform/
 │   └── .env.example
 │
 └── README.md
-````
+```
 
 ---
 
@@ -158,9 +127,9 @@ npm run prisma:seed
 npm run dev
 ```
 
-Backend runs on:
+Backend runs at:
 
-```bash
+```text
 http://localhost:5000
 ```
 
@@ -175,9 +144,9 @@ copy .env.example .env
 npm run dev
 ```
 
-Frontend runs on:
+Frontend runs at:
 
-```bash
+```text
 http://localhost:5173
 ```
 
@@ -185,7 +154,7 @@ http://localhost:5173
 
 # 🔐 Default Admin Credentials
 
-```bash
+```text
 Email: admin@storerating.com
 Password: Admin@123
 ```
@@ -240,7 +209,7 @@ GET /api/owner/dashboard
 | Field    | Rule                                             |
 | -------- | ------------------------------------------------ |
 | Name     | Minimum 20, Maximum 60 characters                |
-| Address  | Max 400 characters                               |
+| Address  | Maximum 400 characters                           |
 | Email    | Standard email format                            |
 | Password | 8–16 chars, one uppercase, one special character |
 
@@ -263,7 +232,6 @@ Password Regex:
 
 ---
 
-
 # 🌟 Key Highlights
 
 ✅ Full-stack architecture
@@ -285,7 +253,7 @@ Password Regex:
 * Charts dashboard
 * Pagination
 * Better UI animations
-* Deployment (Vercel + Render / Railway)
+* Deployment (Vercel / Render / Railway)
 
 ---
 
@@ -305,6 +273,3 @@ This project was developed as part of the **FullStack Intern Coding Challenge** 
 * Database Design
 * Role-Based Access Control
 * Full-stack Application Architecture
-
-```
-```
